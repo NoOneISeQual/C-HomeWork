@@ -116,14 +116,43 @@ Hello, world!
 // 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
 // 2 -> " -2, -1, 0, 1, 2"
 
-Console.Clear();
-Console.Write("Введите число: ");
-int n = Convert.ToInt32(Console.ReadLine());
- for(int i = -n; i <= n; i++)
-     Console.Write($"{i} ");
-// while (n < 1 || n > 7)
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+//  for(int i = -n; i <= n; i++)
+//      Console.Write($"{i} ");
+
+//Учитель
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine()), i = (-1) * n;
+// // for (int i = (-1) * n; i <= n; i++)
+// //     Console.Write($"{i} ");
+// while (i <= n)
+// {
+//     Console.Write($"{i} ");
+//     i++;
+// }
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine()), i = (-1) * n;
+// n = Math.Abs(n); // модуль числа
+// // for (int i = (-1) * n; i <= n; i++)
+// //     Console.Write($"{i} ");
+// while (i <= n)
+// {
+//     Console.Write($"{i} ");
+//     i++;
+// }
 
 // Задача №7. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
 // 	456 -> 6
 // 	782 -> 2
 // 	918 -> 8
+
+Console.Clear();
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(n % 10);
