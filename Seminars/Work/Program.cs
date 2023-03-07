@@ -74,17 +74,40 @@ Hello, world!
 
 //Учителя
 
-Console.Clear();
-Console.Write("Введите 1-ое число: ");
-int n = int.Parse(Console.ReadLine()!);
-Console.Write("Введите 2-ое число: ");
-int m = int.Parse(Console.ReadLine()!);
-if (m * m == n)
-    Console.WriteLine("да");
-else
-    Console.WriteLine("нет");
+// Console.Clear();
+// Console.Write("Введите 1-ое число: ");
+// int n = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите 2-ое число: ");
+// int m = int.Parse(Console.ReadLine()!);
+// if (m * m == n)
+//     Console.WriteLine("да");
+// else
+//     Console.WriteLine("нет");
 
 
 // Задача №3. Напишите программу, которая будет выдавать название дня недели по заданному номеру.
 // 3 -> Среда 
 // 5 -> Пятница
+
+Console.Clear();
+Console.Write("Введите день недели(от 1 до 7): ");
+int n = Convert.ToInt32(Console.ReadLine());
+while (n < 1 || n > 7)
+{
+    Console.Write("Вы ошиблись!\nВведите день недели(от 1 до 7): ");
+    n = Convert.ToInt32(Console.ReadLine());
+}
+if (n == 1)
+    Console.WriteLine("Понедельник");
+else if (n == 2)
+    Console.WriteLine("Вторник");
+else if (n == 3)
+    Console.WriteLine("Среда");
+else if (n == 4)
+    Console.WriteLine("Четверг");
+else if (n == 5)
+    Console.WriteLine("Пятница");
+else if (n == 6)
+    Console.WriteLine("Суббота");
+else
+    Console.WriteLine("Воскресенье");
