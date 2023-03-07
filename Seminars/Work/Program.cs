@@ -89,25 +89,41 @@ Hello, world!
 // 3 -> Среда 
 // 5 -> Пятница
 
+// Console.Clear();
+// Console.Write("Введите день недели(от 1 до 7): ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// while (n < 1 || n > 7)
+// {
+//     Console.Write("Вы ошиблись!\nВведите день недели(от 1 до 7): ");
+//     n = Convert.ToInt32(Console.ReadLine());
+// }
+// if (n == 1)
+//     Console.WriteLine("Понедельник");
+// else if (n == 2)
+//     Console.WriteLine("Вторник");
+// else if (n == 3)
+//     Console.WriteLine("Среда");
+// else if (n == 4)
+//     Console.WriteLine("Четверг");
+// else if (n == 5)
+//     Console.WriteLine("Пятница");
+// else if (n == 6)
+//     Console.WriteLine("Суббота");
+// else
+//     Console.WriteLine("Воскресенье");
+
+// Задача №5. Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
+// 2 -> " -2, -1, 0, 1, 2"
+
 Console.Clear();
-Console.Write("Введите день недели(от 1 до 7): ");
+Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-while (n < 1 || n > 7)
-{
-    Console.Write("Вы ошиблись!\nВведите день недели(от 1 до 7): ");
-    n = Convert.ToInt32(Console.ReadLine());
-}
-if (n == 1)
-    Console.WriteLine("Понедельник");
-else if (n == 2)
-    Console.WriteLine("Вторник");
-else if (n == 3)
-    Console.WriteLine("Среда");
-else if (n == 4)
-    Console.WriteLine("Четверг");
-else if (n == 5)
-    Console.WriteLine("Пятница");
-else if (n == 6)
-    Console.WriteLine("Суббота");
-else
-    Console.WriteLine("Воскресенье");
+ for(int i = -n; i <= n; i++) // 1 2 3 4 5 6 7 8 9 10 
+     Console.Write($"{i} ");
+// while (n < 1 || n > 7)
+
+// Задача №7. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
+// 	456 -> 6
+// 	782 -> 2
+// 	918 -> 8
