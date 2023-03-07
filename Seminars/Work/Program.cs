@@ -119,7 +119,7 @@ Hello, world!
 Console.Clear();
 Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
- for(int i = -n; i <= n; i++) // 1 2 3 4 5 6 7 8 9 10 
+ for(int i = -n; i <= n; i++)
      Console.Write($"{i} ");
 // while (n < 1 || n > 7)
 
