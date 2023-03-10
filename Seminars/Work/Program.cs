@@ -188,4 +188,8 @@ Console.Clear();
 Console.Write("Введите 1-ое число: ");
 int n = int.Parse(Console.ReadLine()!);
 Console.Write("Введите 2-ое число: ");
-int n2 = int.Parse(Console.ReadLine()!);
+int m = int.Parse(Console.ReadLine()!);
+if (n % m == 0)
+  Console.WriteLine ("Кратно");
+else
+  Console.WriteLine ($"не кратно, остаток {n % m}");
