@@ -3,3 +3,13 @@ D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\Task3.GeneratedMSBui
 D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\Task3.AssemblyInfoInputs.cache
 D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\Task3.AssemblyInfo.cs
 D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\Task3.csproj.CoreCompileInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task3\bin\Debug\net7.0\Task3.exe
+D:\4162Group\GitProjects\C#\HomeWork\Task3\bin\Debug\net7.0\Task3.deps.json
+D:\4162Group\GitProjects\C#\HomeWork\Task3\bin\Debug\net7.0\Task3.runtimeconfig.json
+D:\4162Group\GitProjects\C#\HomeWork\Task3\bin\Debug\net7.0\Task3.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task3\bin\Debug\net7.0\Task3.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\Task3.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\refint\Task3.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\Task3.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\Task3.genruntimeconfig.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task3\obj\Debug\net7.0\ref\Task3.dll
