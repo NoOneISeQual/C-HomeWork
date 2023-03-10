@@ -152,7 +152,7 @@ Hello, world!
 // 	782 -> 2
 // 	918 -> 8
 
-Console.Clear();
-Console.Write("Введите число: ");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(n % 10);
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(n % 10);
