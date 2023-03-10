@@ -184,12 +184,38 @@ Hello, world!
 
 // на входе два числа. выводит кратно ли второе число первому.если нет, то выводит остаток.
 
-Console.Clear();
-Console.Write("Введите 1-ое число: ");
-int n = int.Parse(Console.ReadLine()!);
-Console.Write("Введите 2-ое число: ");
-int m = int.Parse(Console.ReadLine()!);
-if (n % m == 0)
-  Console.WriteLine ("Кратно");
-else
-  Console.WriteLine ($"не кратно, остаток {n % m}");
+// Console.Clear();
+// Console.Write("Введите 1-ое число: ");
+// int n = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите 2-ое число: ");
+// int m = int.Parse(Console.ReadLine()!);
+// if (n % m == 0)
+//   Console.WriteLine ("Кратно");
+// else
+//   Console.WriteLine ($"не кратно, остаток {n % m}");
+
+// принимает число и проверяет, кратно ли оно одновременно 7 и 23.
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// if (n % 161 == 0)
+//     Console.WriteLine("yes");
+// else
+//     Console.WriteLine("no");
+
+// // || - или
+// // && - и
+
+// принимает на вход два числа и проверяет,  является ли одно число квадратом второго(1 квадрат 2 и наоборот)
+
+// Console.Clear();
+// Console.Write("Введите число 1: ");
+// int n = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите число 2: ");
+// int m = int.Parse(Console.ReadLine()!);
+// if (n * n == m || m * m == n)
+//   Console.WriteLine("Да");
+// else
+//   Console.WriteLine("Нет");
+
