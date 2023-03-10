@@ -6,6 +6,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите 2 число: ");
 int m = Convert.ToInt32(Console.ReadLine());
 if (n > m)
-  Console.WriteLine($"Наибольшее число"{n});
+  Console.WriteLine(n);
 else
-  Console.WriteLine($"Наибольшее число"{m});
+  Console.WriteLine(m);
