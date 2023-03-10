@@ -3,3 +3,13 @@ D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.GeneratedMSBuildE
 D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.AssemblyInfoInputs.cache
 D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.AssemblyInfo.cs
 D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.csproj.CoreCompileInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\bin\Debug\net7.0\HomeWork.exe
+D:\4162Group\GitProjects\C#\HomeWork\bin\Debug\net7.0\HomeWork.deps.json
+D:\4162Group\GitProjects\C#\HomeWork\bin\Debug\net7.0\HomeWork.runtimeconfig.json
+D:\4162Group\GitProjects\C#\HomeWork\bin\Debug\net7.0\HomeWork.dll
+D:\4162Group\GitProjects\C#\HomeWork\bin\Debug\net7.0\HomeWork.pdb
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.dll
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\refint\HomeWork.dll
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.pdb
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.genruntimeconfig.cache
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\ref\HomeWork.dll
