@@ -1,0 +1,5 @@
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.csproj.AssemblyReference.cache
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.AssemblyInfoInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.AssemblyInfo.cs
+D:\4162Group\GitProjects\C#\HomeWork\obj\Debug\net7.0\HomeWork.csproj.CoreCompileInputs.cache
