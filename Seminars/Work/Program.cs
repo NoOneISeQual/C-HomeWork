@@ -157,12 +157,35 @@ Hello, world!
 // int n = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine(n % 10);
 
+# Семинар 2
+
+// Найти большее число из рандомных чисел
+
+// Console.Clear();
+// int n = new Random().Next(10, 100);
+// Console.WriteLine($"Случайное сгенерированное число {n}");
+// int n1 = n / 10;
+// int n2 = n % 10;
+// if (n1 > n2)
+//   Console.WriteLine(n1);
+// else
+//   Console.WriteLine(n2);
+
+// Выводит случайное трехзначное число и удаляет вторую цифру
+
+// Console.Clear();
+// int n = new Random().Next(10, 1000);
+// Console.WriteLine($"Случайное сгенерированное число {n}");
+// int n1 = n / 100;
+// int n2 = n % 10;
+// int n3 = n1 * 10 + n2;
+// // Либо Console.WriteLine(n3 = n1 * 10 + n2);
+// Console.WriteLine(n3);
+
+// на входе два числа. выводит кратно ли второе число первому.если нет, то выводит остаток.
+
 Console.Clear();
-int n = new Random().Next(10, 100);
-Console.WriteLine($"Случайное сгенерированное число {n}");
-int n1 = n / 10;
-int n2 = n % 10;
-if (n1 > n2)
-  Console.WriteLine(n1);
-else
-  Console.WriteLine(n2);
+Console.Write("Введите 1-ое число: ");
+int n = int.Parse(Console.ReadLine()!);
+Console.Write("Введите 2-ое число: ");
+int n2 = int.Parse(Console.ReadLine()!);
