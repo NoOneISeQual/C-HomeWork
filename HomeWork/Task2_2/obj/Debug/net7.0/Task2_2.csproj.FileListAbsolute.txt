@@ -3,3 +3,13 @@ D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\Task2_2.GeneratedM
 D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\Task2_2.AssemblyInfoInputs.cache
 D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\Task2_2.AssemblyInfo.cs
 D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\Task2_2.csproj.CoreCompileInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\bin\Debug\net7.0\Task2_2.exe
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\bin\Debug\net7.0\Task2_2.deps.json
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\bin\Debug\net7.0\Task2_2.runtimeconfig.json
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\bin\Debug\net7.0\Task2_2.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\bin\Debug\net7.0\Task2_2.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\Task2_2.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\refint\Task2_2.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\Task2_2.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\Task2_2.genruntimeconfig.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task2_2\obj\Debug\net7.0\ref\Task2_2.dll
