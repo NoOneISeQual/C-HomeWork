@@ -1,0 +1,15 @@
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\bin\Debug\net7.0\Task2_1.exe
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\bin\Debug\net7.0\Task2_1.deps.json
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\bin\Debug\net7.0\Task2_1.runtimeconfig.json
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\bin\Debug\net7.0\Task2_1.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\bin\Debug\net7.0\Task2_1.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.csproj.AssemblyReference.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.AssemblyInfoInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.AssemblyInfo.cs
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.csproj.CoreCompileInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\refint\Task2_1.dll
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\Task2_1.genruntimeconfig.cache
+D:\4162Group\GitProjects\C#\HomeWork\Task2_1\obj\Debug\net7.0\ref\Task2_1.dll
