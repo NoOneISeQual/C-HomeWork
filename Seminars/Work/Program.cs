@@ -285,7 +285,7 @@ Hello, world!
 // else
 //     Console.WriteLine("x > 0 and y < 0");
 
-// Принимает координаты двух точек инаходит расстояние между точками в 2D простран стве
+// Принимает координаты двух точек и находит расстояние между точками в 2D пространстве
 // Console.Clear();
 // Console.Write("Введите координату X(1): ");
 // double x1 = Convert.ToDouble(Console.ReadLine());
