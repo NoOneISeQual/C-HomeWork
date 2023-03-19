@@ -219,3 +219,169 @@ Hello, world!
 // else
 //   Console.WriteLine("Нет");
 
+//# Seminar 3
+
+// Console.Clear();
+// string s = Console.ReadLine()!;
+// char n = '6';
+// Console.WriteLine(Convert.ToInt32(s[0].ToString()) * 10);
+
+//Напишите программу, которая будет находить сумму цифр числа
+// Console.Clear();
+// string s = Console.ReadLine()!;
+// int sum = 0;
+// for (int i = 0 ; i < s.Length; i++)
+//   sum = sum + int.Parse(s[i].ToString());
+// Console.WriteLine(sum);
+
+// Console.Clear();
+// string s = Console.ReadLine()!;
+// int sum = 0;
+// // Напишите программу, которая будет находить сумму цифр числа
+// for (int i = 0; i < s.Length; i++)
+//     sum = sum + int.Parse(s[i].ToString());
+// Console.WriteLine(sum);
+
+//  принимает на ввод х;у , не равные 0 и выдает номер четверти в которой находится точка.
+// Console.Clear();
+// Console.Write("Введите координату X: ");
+// double x = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите координату Y: ");
+// double y = Convert.ToDouble(Console.ReadLine());
+// while (x == 0)
+// {
+//     Console.Write("Вы ошиблись!\nВведите координату X: ");
+//     x = Convert.ToDouble(Console.ReadLine());
+// }
+// while (y == 0)
+// {
+//     Console.Write("Вы ошиблись!\nВведите координату Y: ");
+//     y = Convert.ToDouble(Console.ReadLine());
+// }
+// if (x > 0 && y > 0)
+//     Console.WriteLine("I");
+// else if (x < 0 && y > 0)
+//     Console.WriteLine("II");
+// else if (x < 0 && y < 0)
+//     Console.WriteLine("III");
+// else
+//     Console.WriteLine("IV");
+
+// программа, которая по заданному номеру четверти, выдает диапазон возможных координат
+// Console.Clear();
+// Console.Write("Введите номер четверти: ");
+// int n = int.Parse(Console.ReadLine()!);
+// while (n < 1 || n > 4)
+// {
+//     Console.Write("Вы ошиблись!\nВведите номер четверти: ");
+//     n = int.Parse(Console.ReadLine()!);
+// }
+// if (n == 1)
+//     Console.WriteLine("x > 0 and y > 0");
+// else if (n == 2)
+//     Console.WriteLine("x < 0 and y > 0");
+// else if (n == 3)
+//     Console.WriteLine("x < 0 and y < 0");
+// else
+//     Console.WriteLine("x > 0 and y < 0");
+
+// Принимает координаты двух точек инаходит расстояние между точками в 2D простран стве
+// Console.Clear();
+// Console.Write("Введите координату X(1): ");
+// double x1 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите координату Y(1): ");
+// double y1 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите координату X(2): ");
+// double x2 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите координату Y(2): ");
+// double y2 = Convert.ToDouble(Console.ReadLine());
+// double s = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y2 - y1, 2));
+// Console.WriteLine($"Расстояние между двумя точками равно {Math.Round(s, 2)}");
+
+// принимает число (N)  и выдает таблицу квадратов от 1 до N
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = int.Parse(Console.ReadLine()!);
+// for (int i = 1; i <= n; i++)
+//     Console.WriteLine($"{i} ^ 2 = {i * i}");
+
+//# Семинар 4
+
+// Создание массива
+
+// join -соединить с помощью элементов
+// string -строка
+// Split - ввод нескольких элементов в одну строку
+// array - массив
+
+
+// Console.Clear();
+// Console.Write("Введите кол-во элементов массива: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int [] array = new int[n];
+// for (int i = 0; i < array.Length; i++)
+//     array[i] = new Random().Next(1, 11); // 1-10
+// Console.WriteLine($"[{string.Join(", ", array)}]");
+
+//программа, которая принимает на вход число(А) и выдает сумму чисел от 1 до а
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// double n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Результат {(1 + n) / 2 * n}");
+
+// программа принимающая число и выдает кол -во цифр в числе
+// запрещено использовать .Length
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine()), count = 0;
+// while (n != 0)
+// {
+//     count++;
+//     n = n / 10; // n /= 10
+// }
+// Console.WriteLine(count);
+
+// второй вариант с кол-вом разрядов
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine()), count = 1;
+// int i = 0;
+// while (count <= n)
+// {
+//     i++;
+//     count *= 10;
+// }
+// Console.WriteLine(i);
+
+// программа с факториалом
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine()), count = 1;
+// for (int i = 2; i <= n; i++)
+//     count = count * i;
+// Console.WriteLine(count);
+
+
+// Случайные дробные числа
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// double[] array = new double[n];
+// // ... = new Random.NextDouble() * (end - begin) + begin;
+// for (int i = 0; i < array.Length; i++)
+//     array[i] = Math.Round(new Random().NextDouble() * (30 - 10) + 10, 2);
+// Console.WriteLine($"[{string.Join(", ", array)}]");
+
+// не понял про (30-10)
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// double[] array = new double[n];
+// // ... = new Random.NextDouble() * (end - begin) + begin;
+// for (int i = 0; i < array.Length; i++)
+//     array[i] = Math.Round(new Random().NextDouble() * 20 + 10, 2);
+// Console.WriteLine($"[{string.Join(", ", array)}]");
