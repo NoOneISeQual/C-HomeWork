@@ -1,0 +1,15 @@
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\bin\Debug\net7.0\DopTask.exe
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\bin\Debug\net7.0\DopTask.deps.json
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\bin\Debug\net7.0\DopTask.runtimeconfig.json
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\bin\Debug\net7.0\DopTask.dll
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\bin\Debug\net7.0\DopTask.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.csproj.AssemblyReference.cache
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.AssemblyInfoInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.AssemblyInfo.cs
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.csproj.CoreCompileInputs.cache
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.dll
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\refint\DopTask.dll
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.pdb
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\DopTask.genruntimeconfig.cache
+D:\4162Group\GitProjects\C#\HomeWork\Home3\DopTask\obj\Debug\net7.0\ref\DopTask.dll
