@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4162Group\\GitProjects\\C#\\HomeWork\\Home3\\Task 1\\Task 1.csproj",
+      "projectUniqueName": "D:\\4162Group\\GitProjects\\C#\\HomeWork\\Home3\\Task 3\\Task 1.csproj",
       "projectName": "Task 1",
-      "projectPath": "D:\\4162Group\\GitProjects\\C#\\HomeWork\\Home3\\Task 1\\Task 1.csproj",
+      "projectPath": "D:\\4162Group\\GitProjects\\C#\\HomeWork\\Home3\\Task 3\\Task 1.csproj",
       "packagesPath": "C:\\Users\\IENS\\.nuget\\packages\\",
-      "outputPath": "D:\\4162Group\\GitProjects\\C#\\HomeWork\\Home3\\Task 1\\obj\\",
+      "outputPath": "D:\\4162Group\\GitProjects\\C#\\HomeWork\\Home3\\Task 3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IENS\\AppData\\Roaming\\NuGet\\NuGet.Config"
