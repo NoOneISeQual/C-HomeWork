@@ -1,10 +1,10 @@
-﻿Console.Clear();
-Console.Write("Введите число А: ");
-int n = int.Parse(Console.ReadLine()!);
-Console.Write("Введите число B: ");
-int m = int.Parse(Console.ReadLine()!);
-for (int i = 0; i <= m; i++ )
+﻿Console.Write("Введите A: ");
+double A = Convert.ToDouble(Console.ReadLine());
+double n = 1;
+Console.Write("Введите B: ");
+int B = Convert.ToInt32(Console.ReadLine());
+ for (int i = 0; i < B; i++)
 {
-    n*=n;
+n *= A;
 }
 Console.WriteLine(n);
