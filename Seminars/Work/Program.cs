@@ -594,27 +594,78 @@ Hello, world!
 // int k = int.Parse(Console.ReadLine()!);
 // Console.WriteLine(Search(array));
 
-void InputArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-        array[i] = new Random().Next(-100, 101); // [-9; 9]
-}
+// вот оно
+
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(-100, 101); // [-9; 9]
+// }
 
 
-int Q (int[] array)
-{
-    int sum = 0;
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (array[i] <= 99 && array[i] >= 10)
-            sum++;
-    }
-    return sum;
-}
+// int Q (int[] array)
+// {
+//     int sum = 0;
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] <= 99 && array[i] >= 10)
+//             sum++;
+//     }
+//     return sum;
+// }
 
+// или
 
-Console.Clear();
-int[] array = new int[123];
-InputArray(array);
-Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
-Console.WriteLine(Q(array));
+// Console.Clear();
+// int[] array = new int[123];
+// InputArray(array);
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// Console.WriteLine(Q(array));
+
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(-100, 101); // [-100; 100]
+// }
+
+// int CountNumbers(int[] array)
+// {
+//     int count = 0;
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//        if (array[i] >= 10 && array[i] <= 99)
+//             count++;
+//     }
+//     return count;
+// }
+
+// Console.Clear();
+// Console.Write("Введите кол-во элементов в массиве: ");
+// int[] array = new int[123];
+// InputArray(array);
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// Console.WriteLine(CountNumbers(array));
+
+// Задача 37: Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д. Результат запишите в новом массиве.
+// [1 2 3 4 5] -> 5 8 3
+// [6 7 3 6] -> 36 21
+
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(1, 11); // [1, 10]
+// }
+
+// void ProizvedenieElements(int[] array)
+// {
+//     for (int i = 0; i < array.Length / 2 + array.Length % 2; i++)
+//         Console.Write($"{array[i] * array[array.Length - 1 - i]} ");
+// }
+
+// Console.Clear();
+// Console.Write("Введите кол-во элементов в массиве: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int[] array = new int[n];
+// InputArray(array);
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// ProizvedenieElements(array);
