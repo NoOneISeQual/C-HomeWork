@@ -385,3 +385,236 @@ Hello, world!
 // for (int i = 0; i < array.Length; i++)
 //     array[i] = Math.Round(new Random().NextDouble() * 20 + 10, 2);
 // Console.WriteLine($"[{string.Join(", ", array)}]");
+
+//#Seminar 5
+//домашнее задание 19 задача
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int n = int.Parse(Console.ReadLine()!);
+// while (n < 10000 || n > 99999)
+// {
+//     Console.Write("Вы ошиблись!\nВведите число: ");
+//     n = int.Parse(Console.ReadLine()!);
+// }
+// int n1 = n / 10000;
+// int n2 = (n / 1000) % 10;
+// int n4 = (n % 100) / 10;
+// int n5 = n % 10;
+// if (n1 == n5 && n2 == n4)
+//     Console.WriteLine("yes");
+// else
+//     Console.WriteLine("no");
+
+// или
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// string n = Console.ReadLine()!;
+// while (n.Length != 5)
+// {
+//     Console.Write("Вы ошиблись!\nВведите число: ");
+//     n = Console.ReadLine()!;
+// }
+// if (n[0] == n[4] && n[1] == n[3])
+//     Console.WriteLine("yes");
+// else
+//     Console.WriteLine("no");
+
+// задача- сбор черники(доп задание)
+
+// Console.Clear();
+// Console.Write("Введите кол-во элементов массива: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int[] array = new int[n];
+// for (int i = 0; i < array.Length; i++)
+//     array[i] = new Random().Next(1, 11); // [1, 10]
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// int max = 0;
+// for (int i = 1; i < array.Length - 1; i++)
+// {
+//     if (max < array[i - 1] + array[i] + array[i + 1])
+//         max = array[i - 1] + array[i] + array[i + 1];
+// }
+// if (max < array[array.Length - 1] + array[array.Length - 2] + array[0])
+//     max = array[array.Length - 1] + array[array.Length - 2] + array[0];
+
+// if (max < array[array.Length - 1] + array[0] + array[1])
+//     max = array[array.Length - 1] + array[0] + array[1];
+// Console.WriteLine(max);
+
+// Процедуры
+
+// void f(ref int a)
+// {
+//     a = a + 10;
+// }
+
+// Console.Clear();
+// int n = 5;
+// f(ref n);
+// Console.WriteLine(n);
+
+// void f(int[] a)
+// {
+//     a[0] += 100;
+// }
+
+// Console.Clear();
+// int[] array = {1, 2, 3, 4, 5};
+// f(array);
+// Console.WriteLine(string.Join(" ", array));
+
+//Функции
+// Напишите программу, которая принимает 2 числа и возвращает максимальное
+// int maxNumbers(int a, int b)
+// {
+//     if (a > b)
+//         return a;
+//     return b;
+// }
+
+// Console.Clear();
+// int n = 10, m = 70;
+// int result = maxNumbers(n, m);
+// Console.WriteLine(result);
+
+// Создать массив на 12 элементов и вывести сумму положительных и отрицательных чисел
+
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(-9, 10); // [-9; 9]
+// }
+
+// int SumPositiveNumbers(int[] array)
+// {
+//     int sum = 0;
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] > 0)
+//             sum += array[i]; // sum = sum + array[i]
+//     }
+//     return sum;
+// }
+
+// int SumNegativeNumbers(int[] array)
+// {
+//     int sum = 0;
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] < 0)
+//             sum += array[i]; // sum = sum + array[i]
+//     }
+//     return sum;
+// }
+
+
+// Console.Clear();
+// // Console.Write("Введите кол-во элементов в массиве: ");
+// // int n = int.Parse(Console.ReadLine()!);
+// int[] array = new int[12];
+// InputArray(array);
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// Console.WriteLine($"Сумма положительных элементов равна {SumPositiveNumbers(array)}");
+// Console.WriteLine($"Сумма отрицательных элементов равна {SumNegativeNumbers(array)}");
+
+// Замена чисел с положительных на отрицательные
+
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(-9, 10); // [-9; 9]
+// }
+
+// void ChangeArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] *= (-1);
+// }
+
+// Console.Clear();
+// Console.Write("Введите кол-во элементов в массиве: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int[] array = new int[n];
+// InputArray(array);
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// ChangeArray(array);
+// Console.WriteLine($"Конечный массив: [{string.Join(", ", array)}]");
+
+
+// Задача 33: Задайте массив. Напишите программу, которая определяет, присутствует ли заданное число в массиве.
+
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(-9, 10); // [-9; 9]
+// }
+
+// string SearchNumberInArray(int[] array, int number)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] == number)
+//             return "yes";
+//     }
+//     return "no";
+// }
+
+// Задача 35: Задайте одномерный массив из 123 случайных чисел. Найдите количество элементов массива, значения которых лежат в отрезке [10,99]. 
+// Пример для массива из 5, а не 123 элементов. В своём решении сделайте для 123
+// [5, 18, 123, 6, 2] -> 1
+// [1, 2, 3, 6, 2] -> 0
+// [10, 11, 12, 13, 14] -> 5
+
+// не работает
+// Console.Clear();
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(-100, 100); // [-9; 9]
+// }
+// int Search(int[] array)
+
+// {
+//     int numbers = 0;
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] >= 10 && array[i] <= 99)
+//         numbers++;
+//     }
+//     return numbers;
+// }
+
+// Console.Clear();
+// // Console.Write("Введите кол-во элементов в массиве: ");
+// // int n = int.Parse(Console.ReadLine()!);
+// int[] array = new int[123];
+// InputArray(array);
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// int k = int.Parse(Console.ReadLine()!);
+// Console.WriteLine(Search(array));
+
+void InputArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+        array[i] = new Random().Next(-100, 101); // [-9; 9]
+}
+
+
+int Q (int[] array)
+{
+    int sum = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] <= 99 && array[i] >= 10)
+            sum++;
+    }
+    return sum;
+}
+
+
+Console.Clear();
+int[] array = new int[123];
+InputArray(array);
+Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+Console.WriteLine(Q(array));
